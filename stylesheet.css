@@ -1,0 +1,84 @@
+/* 
+     .heading {
+                padding: 60px;
+                font-size: 25px;
+                text-align: center;
+                background-color: #2281dc;
+            }
+           
+ 
+            .section {
+               background-color: #16accd;
+               padding: 20px;
+               margin-top: 30px;
+               font-size: 20px;
+            }
+.book {
+  background-color: look-up-a-good color;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #008B8B;
+  font-size: 20px;
+  }
+
+the rest is ChatGPT
+*/
+
+/* Adds font, background color, a margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* A light background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* centers text, adds padding and adds a background color */
+.heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* A green color */
+    color: white;
+}
+/* Adds margin to h1 and h3 */
+h1, h3 {
+    margin: 0;
+}
+/* Adds margin, padding, and a shadow when you hover */
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    max-width: 100%; /* Ensure images are responsive */
+    border-radius: 10px;
+}
+/* Adds margin, padding, and a shadow when you hover */
+.book {
+    text-align: center;
+    background-color: #fffbcc; /* Soft yellow background for book section */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 50%; /* Adjust the size of the Harry Potter image */
+    border-radius: 10px;
+}
+
+/* Add hover effects for the sections */
+.section:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style the paragraph text */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
